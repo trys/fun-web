@@ -23,6 +23,11 @@ li {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -164,8 +169,6 @@ h1 time {
     align-self: end;
 }
 
-
-
 /* Animation */
 @keyframes noise{
     0%, 100% {transform:translate(0, 0)}
@@ -178,4 +181,14 @@ h1 time {
     70% { transform:translate(0%, 15%)}
     80% { transform:translate(3%, 35%)}
     90% { transform:translate(-10%, 10%)}
+}
+
+/* Source */
+.source {
+    font: 400 0.8em 'Helvetica', sans-serif;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: inherit;
 }
